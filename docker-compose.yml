@@ -1,0 +1,8 @@
+services:
+  drinker:
+    build: .
+    image: ghcr.io/fyefee/bookinfo-ratings:dev
+    ports:
+      - "8080:80"
+
+  
